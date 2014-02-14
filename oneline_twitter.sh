@@ -42,6 +42,7 @@ tweet_count=20
 check_in_seconds=180
 
 # twitter app data
+# register at https://apps.twitter.com/app/new
 consumer_key=''
 consumer_secret=''
 oauth_token=''
