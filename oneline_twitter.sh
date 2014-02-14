@@ -396,8 +396,6 @@ done
 # muestro el ultimo que se vio
 
 if [ $empty -eq 1 ] ;then
-# show/hide i3bar
-#echo 'DOCK_BAR="'"1"'"' > $data_dir/twitterv2.variable.dock_bar.file
 
 	if [ $a -eq 1 ]; then
 
