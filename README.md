@@ -8,14 +8,8 @@ Horrendamente adaptado para mostrar el timeline y las menciones de Twitter en un
 
 Requerimientos
 ==============
-curl
-
-openssl
-
-grep
-
-sed
-
-jq (http://stedolan.github.io/jq/)
-
-
+curl<br>
+openssl<br>
+grep<br>
+sed><br>
+<b>jq</b> (http://stedolan.gitub.io/jq/)<br>
