@@ -358,8 +358,10 @@ while [  $COUNTER -lt $tweet_count ]; do
 			elif [ $elapse -gt 3600 ];then
 			nice_date="hace $(($elapse / 3600)) hora."
 		if [ $(($elapse / 3600)) -gt 1 ];then nice_date="hace $(($elapse / 3600)) horas.";fi	
-			else
+			elif [ $elapse -gt 60 ];then
 			nice_date="hace $(($elapse / 60 )) min."
+			else
+			nice_date="hace $(($elapse)) seg."
 		fi
 
 	# finalmente armo la cadena a mostrar	
