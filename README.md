@@ -12,4 +12,4 @@ curl<br>
 openssl<br>
 grep<br>
 sed><br>
-<b>jq</b> (https://stedolan.github.io/jq/)<br>
+<b>jq</b> (https://stedolan.github.io/jq/)<br> 
